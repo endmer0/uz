@@ -1,0 +1,122 @@
+body {
+  background-image: url(fon-games.jpg)
+}
+.menu ul {
+  list-style-type: none; /* Ro'yhat nuqtasini o'chirish */
+  margin: 5px 5px 5px 5px; /* Yon ichidagi marginni o'chirish */
+  padding: 0; /* Yon ichidagi paddingni o'chirish */
+}
+.menu ul li {
+  float: left; /* Har bir menyu elementini chapga surish */
+}
+
+.menu ul li a {
+  display: block; /* Link elementini blok elementiga aylantirish */
+  color: white; /* Matn rangi */
+  text-align: center; /* Matnni markazga sig'ish */
+  padding: 14px 16px; /* Orqa va oldni bosganlik */
+  text-decoration: none; /* Underline o'chirish */
+}
+
+/* Link hover holatida rang o'zgarishi */
+.menu ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+
+
+.name {
+  background-color: black;
+  text-align: right;
+  color: #f1a9a9;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  font-size: 22px;
+}
+li {
+
+  border-radius:5px
+}
+
+.sarlavha {
+  color:#f1a9a9;
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+.gamelove {
+  font-size: 28px;
+  color:#f1a9a9;
+  background-repeat: no-repeat;
+  
+}
+h1 {
+  text-align: center;
+}
+img {
+  border-radius: 15px;
+}
+ 
+.silka {
+  text-align: left;
+  margin: 0px 10px 10px 1000px;
+  padding: 10px 10px 10px 10px;
+  color:antiquewhite;
+  background-color: green;
+  display:inline-block;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+}
+p {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+}
+.hn2{
+  display: flex;
+  
+}
+p {
+  color:antiquewhite;
+  margin-left: 500px;
+ 
+}
+.stray {
+  display: flex;
+}
+.hn{
+  display:flex;
+ 
+}
+.cs1_6{
+  display: flex;
+}
+.br {
+  display: flex;
+}
+
+
+.utorrent {
+  color:aqua;
+  
+}
+
+.beautiful-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0px 600px 0px 600px;
+
+}
+
+.beautiful-button:hover {
+  background-color: #45a049;
+}

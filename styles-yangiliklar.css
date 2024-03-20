@@ -1,0 +1,91 @@
+body {
+  background-image: url(fon-games.jpg)
+}
+.menu ul {
+  list-style-type: none; /* Ro'yhat nuqtasini o'chirish */
+  margin: 5px 5px 5px 5px; /* Yon ichidagi marginni o'chirish */
+  padding: 0; /* Yon ichidagi paddingni o'chirish */
+}
+.menu ul li {
+  float: left; /* Har bir menyu elementini chapga surish */
+}
+
+.menu ul li a {
+  display: block; /* Link elementini blok elementiga aylantirish */
+  color: white; /* Matn rangi */
+  text-align: center; /* Matnni markazga sig'ish */
+  padding: 14px 16px; /* Orqa va oldni bosganlik */
+  text-decoration: none; /* Underline o'chirish */
+}
+
+/* Link hover holatida rang o'zgarishi */
+.menu ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+
+
+.name {
+  background-color: black;
+  text-align: right;
+  color: #f1a9a9;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  font-size: 22px;
+}
+li {
+
+  border-radius:5px
+}
+
+.sarlavha {
+  color:#f1a9a9;
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+.news1 {
+  color:#6d0000d8;
+  background-color:#f1a9a9;
+  margin: 50px 1000px 50px 50px;
+  padding:0px 0px 0px 0px;
+  border-radius: 10px 0px 10px 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.news1p {
+  font-size: 20px;
+  color:#6d0000d8;
+  background-color: #ffffff;
+  margin: 50px 700px 50px 50px;
+  padding:50px 50px 50px 50px;
+  border-radius: 10px;
+
+}
+.news2 {
+  padding:0px 0px 0px 0px;
+  border-radius: 0px 10px 0px 10px;
+  background-color:#f1a9a9;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px 150px 0px 900px;
+  display: flex;
+  padding:0px 0px 0px 0px;
+}
+.news2p {
+  font-size: 20px;
+  color:#6d0000d8;
+  background-color: #ffffff;
+  margin: 50px 50px 50px 700px;
+  padding:50px 50px 50px 50px;
+  border-radius: 10px;
+
+}
+.videos {
+  text-align: center;
+
+}
+.image {
+  border-radius: 15px;
+}

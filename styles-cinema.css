@@ -1,0 +1,93 @@
+body {
+    background-image: url(fon-games.jpg)
+  }
+  .menu ul {
+    list-style-type: none; /* Ro'yhat nuqtasini o'chirish */
+    margin: 5px 5px 5px 5px; /* Yon ichidagi marginni o'chirish */
+    padding: 0; /* Yon ichidagi paddingni o'chirish */
+  }
+  .menu ul li {
+    float: left; /* Har bir menyu elementini chapga surish */
+  }
+  
+  .menu ul li a {
+    display: block; /* Link elementini blok elementiga aylantirish */
+    color: white; /* Matn rangi */
+    text-align: center; /* Matnni markazga sig'ish */
+    padding: 14px 16px; /* Orqa va oldni bosganlik */
+    text-decoration: none; /* Underline o'chirish */
+  }
+  
+  /* Link hover holatida rang o'zgarishi */
+  .menu ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .name {
+    background-color: black;
+    text-align: right;
+    color: #f1a9a9;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    font-size: 22px;
+  }
+  li {
+  
+    border-radius:5px
+  }
+  h1 {
+    text-align: center;
+  }
+  
+.sarlavha {
+    color:#f1a9a9;
+    text-align: center;
+    margin-top: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.yt {
+    display:flex;
+   
+}  
+.panel {
+    margin-left: 10px;
+    margin-top:50px;
+}
+.main_video {
+    margin: 50px 50px 50px 50px;
+}
+iframe {
+    border-radius: 10px;
+    margin-top: 15px;
+}
+img {
+    border-radius: 50%;
+}
+.main_name {
+    color:aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+.channel_box {
+    display: flex;
+}
+h2 {
+    color: #f1a9a9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #f1a9a9;
+} 
+.a {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
